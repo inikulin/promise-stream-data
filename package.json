@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "eslint index.js test && mocha"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,8 @@
     "pinkie-promise": "^2.0.0"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "eslint": "^1.10.3",
+    "mocha": "^2.3.4",
+    "noop-fn": "^1.0.0"
   }
 }
