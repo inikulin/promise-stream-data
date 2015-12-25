@@ -1,6 +1,6 @@
 {
   "name": "promise-stream-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create promises for the ReadableStream data.",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,7 @@
     "data",
     "fetch"
   ],
-  "author": "Ivan Nikulin Ivan Nikulin (ifaaan@gmail.com)",
+  "author": "Ivan Nikulin (ifaaan@gmail.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/inikulin/promise-stream-data/issues"
@@ -29,6 +29,9 @@
   "dependencies": {
     "pinkie-promise": "^2.0.0"
   },
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
     "eslint": "^1.10.3",
     "mocha": "^2.3.4",
